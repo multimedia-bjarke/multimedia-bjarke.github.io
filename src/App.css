@@ -62,9 +62,10 @@ h2 {
   align-items: center;
 }
 
-#header a:hover {
+.header a:hover {
   transform: scale(1.05);
   transition: ease-in-out 0.2s;
+  color: var(--Orange);
 }
 
 /*Nav*/
@@ -99,6 +100,12 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#circle-btn h1:hover {
+  transform: scale(1.05);
+  transition: ease-in-out 0.2s;
+  color: var(--Orange);
 }
 
 #circle-btn {

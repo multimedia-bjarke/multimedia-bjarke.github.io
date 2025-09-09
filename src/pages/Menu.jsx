@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router";
 import Header from "../components/Header";
+import AnimatedText from "../components/AnimatedText";
 
 export default function Menu() {
   return (
