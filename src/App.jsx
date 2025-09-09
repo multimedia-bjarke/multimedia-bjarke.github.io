@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Nav />
+        {/* <Nav /> */}
 
         <Routes>
           <Route path="/" element={<Home />} />
