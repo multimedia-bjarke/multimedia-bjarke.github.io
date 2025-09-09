@@ -1,28 +1,27 @@
-import { useParams } from "react-router";
 import { useEffect, useState } from "react";
 
-export default function HomeCards(data) {
-  const { id } = useParams(); // 👈 grabs the ":id" from the URL
-  const [card, setCard] = useState(null);
+export default function HomeCards() {
+  const [cards, setCards] = useState([]);
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("/data/clients.json");
-      const data = await response.json();
+      const response = await fetch("/data/homeCards.json");
+      const json = await response.json();
+      setCards(json);
     }
     fetchData();
-  }, [id]);
+  }, []);
 
   return (
     <>
-      <div className="card">
-        <a href="design.html">
-          <div className="cards">
-            <h2>{data.title}</h2>
-            <img src={data.image} alt={data.alt} />
+      {cards.map((card, index) => (
+        <a href={card.link}>
+          <div className="card" key={index}>
+            <h2>{card.title}</h2>
+            <img src={card.image} alt={card.alt || card.title} />
           </div>
         </a>
-      </div>
+      ))}
     </>
   );
 }

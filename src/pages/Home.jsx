@@ -5,17 +5,7 @@ function HomePage() {
     <>
       <main>
         <div className="cardContainer">
-          <a href="/src/pages/Design.jsx">
-            <HomeCards />
-          </a>
-
-          <a href="/src/pages/Design.jsx">
-            <HomeCards />
-          </a>
-
-          <a href="/src/pages/Design.jsx">
-            <HomeCards />
-          </a>
+          <HomeCards />
         </div>
       </main>
     </>
