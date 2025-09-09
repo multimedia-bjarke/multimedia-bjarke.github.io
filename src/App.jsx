@@ -3,18 +3,16 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import "./App.css";
-import Nav from "./components/Nav";
 import ProjectDetail from "./pages/ProjectDetail";
 import Design from "./pages/Design";
 import Frontend from "./pages/Frontend";
 import Content from "./pages/Content";
+import Menu from "./pages/Menu";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        {/* <Nav /> */}
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
@@ -23,6 +21,7 @@ function App() {
           <Route path="/design" element={<Design />} />
           <Route path="/frontend" element={<Frontend />} />
           <Route path="/content" element={<Content />} />
+          <Route path="/menu" element={<Menu />} />
         </Routes>
       </BrowserRouter>
     </>

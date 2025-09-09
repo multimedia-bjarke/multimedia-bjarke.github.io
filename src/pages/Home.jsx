@@ -17,7 +17,7 @@ function HomePage() {
               initialText=""
               animatedTextArray={[
                 "Multimediedesigner",
-                "Frontendudvikler",
+                "Frontend-udvikler",
                 "Content Creator",
                 "Webudvikler",
               ]}
