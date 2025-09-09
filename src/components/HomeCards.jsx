@@ -15,8 +15,8 @@ export default function HomeCards() {
   return (
     <>
       {cards.map((card, index) => (
-        <a href={card.link}>
-          <div className="card" key={index}>
+        <a href={card.link} key={index}>
+          <div className="card">
             <h2>{card.title}</h2>
             <img src={card.image} alt={card.alt || card.title} />
           </div>

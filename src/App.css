@@ -15,14 +15,15 @@
 
 body {
   display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   font-family: Inter;
   background-color: var(--White);
   color: white;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
 }
 
 /*Links*/
@@ -33,7 +34,6 @@ a {
 /*Fonts*/
 h2 {
   color: #fff;
-
   text-align: center;
   font-family: Inter;
   font-size: 30px;
@@ -71,8 +71,9 @@ header {
   border-bottom: 2px solid rgb(255, 255, 255);
 }
 
-/*MAIN*/
-main {
+/*HOMEPAGE*/
+
+#main-homepage {
   width: 100vw;
   height: 100vh;
   margin: 0;
@@ -80,32 +81,29 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 5rem;
 }
 
 /*Section 1 - title*/
-.title {
+.title-section {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-items: center;
   align-items: center;
-  height: auto;
-  width: 100%;
-  color: var(--White);
-  font-size: 2rem;
-  text-align: center;
-}
-.content {
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  margin-top: -2rem;
-  margin-bottom: 2rem;
+  margin-bottom: -20px;
 }
 
-h1 {
-  margin-bottom: -20px;
+.title-section h1 {
   font-size: 5rem;
   color: var(--White);
+  margin: 0;
+}
+
+.title-section h3 {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 4rem;
 }
 
 /*Section 2 - Cards*/
@@ -123,7 +121,6 @@ h1 {
   justify-items: center;
 }
 
-/*Cards*/
 .card {
   width: 20rem;
   height: 32rem;
@@ -133,11 +130,12 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in-out;
 }
 
 .card:hover {
   transform: scale(1.05);
+  box-shadow: 10px 8px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 .card img {
@@ -147,4 +145,27 @@ h1 {
   display: block;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+}
+
+.btn-cta {
+  background-color: #ff9100;
+  display: flex;
+  width: 16.4375rem;
+  height: 3.875rem;
+  padding: 0.5625rem 1.8125rem 0.5625rem 1.875rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 1.5625rem;
+  background: #ff9100;
+  box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25);
+  justify-self: center;
+  color: var(--White);
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
