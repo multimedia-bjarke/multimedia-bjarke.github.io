@@ -1,17 +1,17 @@
 [
   {
     "title": "Design",
-    "image": "./public/img/placeholders/DesignPlaceholder.svg",
+    "image": "/img/placeholders/DesignPlaceholder.svg",
     "link": "src/pages/design"
   },
   {
     "title": "Frontend udvikling",
-    "image": "./public/img/placeholders/FrontendPlaceholder.svg",
+    "image": "/img/placeholders/FrontendPlaceholder.svg",
     "link": "src/pages/frontend"
   },
   {
     "title": "Content Creation",
-    "image": "./public/img/placeholders/ContentPlaceholder.svg",
+    "image": "/img/placeholders/ContentPlaceholder.svg",
     "alt": "Content Creation picture placeholder",
     "link": "src/pages/content"
   }
