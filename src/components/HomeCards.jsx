@@ -5,7 +5,7 @@ export default function HomeCards() {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("/data/homeCards.json");
+      const response = await fetch("./data/homeCards.json");
       const json = await response.json();
       setCards(json);
     }
