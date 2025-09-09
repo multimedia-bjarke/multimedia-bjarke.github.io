@@ -8,9 +8,9 @@ export default function AnimatedText({ initialText, animatedTextArray }) {
   useEffect(() => {
     const options = {
       strings: animatedTextArray,
-      typeSpeed: 2000,
-      backSpeed: 1000,
-      backDelay: 2000,
+      typeSpeed: 50,
+      backSpeed: 50,
+      backDelay: 1500,
       loop: true,
       showCursor: true,
     };

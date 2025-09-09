@@ -13,7 +13,7 @@ function HomePage() {
             <AnimatedText
               initialText=""
               animatedTextArray={[
-                "Multimediedesigner.",
+                "Multimediedesigner",
                 "Frontendudvikler",
                 "Content Creator",
                 "Webudvikler",
