@@ -17,7 +17,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Inter;
-  background-color: var(--Orange);
+  background-color: var(--White);
   color: white;
   height: 100%;
   width: 100%;
@@ -27,14 +27,6 @@ body {
 /*Links*/
 a {
   text-decoration: none;
-}
-
-/*Colors*/
-
-:root {
-  --Black: #000000;
-  --White: #ffffff;
-  --Orange: #ff9100;
 }
 
 /*Fonts*/
@@ -83,8 +75,7 @@ main {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  background-color: rgba(91, 137, 137, 0);
-  background-image: url(/public/);
+  background-image: url(/public/img/backgrounds/Baggrund.svg);
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
