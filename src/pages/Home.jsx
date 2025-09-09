@@ -1,11 +1,14 @@
 import HomeCards from "../components/HomeCards";
 import BtnCTA from "../components/BtnCTA";
 import AnimatedText from "../components/AnimatedText";
+import Header from "../components/Header";
 
 function HomePage() {
   return (
     <>
-      <header id="header-homepage"></header>
+      <header>
+        <Header />
+      </header>
       <main id="main-homepage">
         <section className="title-section">
           <h1>Bjarke Holm</h1>

@@ -4,7 +4,7 @@ export default function BtnCTA() {
   const navigate = useNavigate();
 
   function handleClick() {
-    navigate("/about");
+    navigate("/about#contact-section");
   }
 
   return (
