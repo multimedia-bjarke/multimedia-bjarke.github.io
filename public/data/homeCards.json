@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Design",
+    "image": "/images/design.jpg",
+    "link": "src/pages/design"
+  },
+  {
+    "title": "Frontend udvikling",
+    "image": "/images/Placeholders/FrontendPlaceholder",
+    "link": "src/pages/frontend"
+  },
+  {
+    "title": "Content Creation",
+    "image": "/images/Placeholders/ContentPlaceholder.svg",
+    "alt": "Content Creation picture placeholder",
+    "link": "src/pages/content"
+  }
+]

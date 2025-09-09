@@ -4,28 +4,24 @@ export default function Nav() {
   return (
     <nav className="Links">
       <NavLink
-        to="/"
+        to="/design"
         className={({ isActive }) => (isActive ? "active-link" : "link")}
       >
-        Home
+        Design
       </NavLink>
+
       <NavLink
-        to="/projects"
+        to="/frontend"
         className={({ isActive }) => (isActive ? "active-link" : "link")}
       >
-        Projects
+        Frontend udvikling
       </NavLink>
+
       <NavLink
-        to="/about"
+        to="/content"
         className={({ isActive }) => (isActive ? "active-link" : "link")}
       >
-        About
-      </NavLink>
-      <NavLink
-        to="/contact"
-        className={({ isActive }) => (isActive ? "active-link" : "link")}
-      >
-        Contact
+        Content Creation
       </NavLink>
     </nav>
   );
