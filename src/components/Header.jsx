@@ -4,10 +4,10 @@ export default function Header() {
   return (
     <header id="header">
       <Link to="/">
-        <img src="/img/icons/HomeIcon.svg" alt="Home" />
+        <img src="img/icons/HomeIcon_50px.svg" alt="Home" />
       </Link>
       <Link to="/menu">
-        <img src="/img/icons/NavIcon.svg" alt="Navigation" />
+        <img src="/img/icons/MenuIcon_50px.svg" alt="Navigation" />
       </Link>
     </header>
   );

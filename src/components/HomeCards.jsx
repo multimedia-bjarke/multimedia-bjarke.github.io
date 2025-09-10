@@ -17,8 +17,12 @@ export default function HomeCards() {
       {cards.map((card, index) => (
         <a href={card.link} key={index}>
           <div className="card">
-            <h2>{card.title}</h2>
-            <img src={card.image} alt={card.alt || card.title} />
+            <div className="card-title">
+              <h2>{card.title}</h2>
+            </div>
+            <div className="card-img">
+              <img id="imgSize" src={card.image} alt={card.alt || card.title} />
+            </div>
           </div>
         </a>
       ))}
