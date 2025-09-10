@@ -2,17 +2,17 @@
   {
     "title": "Design",
     "image": "/img/placeholders/DesignGIF7.gif",
-    "link": "src/pages/design"
+    "link": "/design"
   },
   {
     "title": "Frontendudvikling",
     "image": "/img/placeholders/DesignGIF6.gif",
-    "link": "src/pages/frontend"
+    "link": "/frontend"
   },
   {
     "title": "Content Creation",
     "image": "/img/backgrounds/ContentGIF.gif",
     "alt": "Content Creation picture placeholder",
-    "link": "src/pages/content"
+    "link": "/content"
   }
 ]
