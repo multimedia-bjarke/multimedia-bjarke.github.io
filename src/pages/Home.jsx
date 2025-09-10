@@ -72,6 +72,10 @@ function HomePage() {
           <HomeCards />
         </div>
 
+        <div className="flex justify-center mt-8 mb-12">
+          <img src="/public/img/icons/ArrowIconOrange.svg" alt="orange pil" />
+        </div>
+
         <div className="flex justify-center mt-12 mb-12">
           <BtnCTA />
         </div>
