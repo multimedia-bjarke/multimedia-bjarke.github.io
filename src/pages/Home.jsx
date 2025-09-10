@@ -50,8 +50,8 @@ function HomePage() {
       <header>
         <Header />
       </header>
-      <main className="flex flex-col w-screen h-screen bg-[url('/img/backgrounds/Baggrund2.svg')] bg-cover bg-bottom bg-blend-color-burn mb-20">
-        <section className="flex flex-col items-center mb-40 mt-12">
+      <main className="flex flex-col min-h-screen w-screen bg-[url('/img/backgrounds/Baggrund2.svg')] bg-cover bg-bottom bg-blend-color-burn">
+        <section className="flex flex-col items-center  mt-12">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center">
             Bjarke Holm
           </h1>
@@ -68,11 +68,11 @@ function HomePage() {
           </h3>
         </section>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center w-full h-full mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center w-full flex-grow">
           <HomeCards />
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-12 mb-12">
           <BtnCTA />
         </div>
       </main>
