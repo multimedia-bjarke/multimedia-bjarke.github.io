@@ -62,10 +62,11 @@ h2 {
   align-items: center;
 }
 
-.header a:hover {
+#header a:hover {
   transform: scale(1.05);
   transition: ease-in-out 0.2s;
-  color: var(--Orange);
+  background-color: #ff9100;
+  border-radius: 50%;
 }
 
 /*Nav*/
