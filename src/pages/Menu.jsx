@@ -45,7 +45,7 @@ export default function Menu() {
           </Link>
           <Link to="/frontend">
             <h1 className="text-[5vw] md:text-3xl lg:text-5xl font-bold text-center transition-transform duration-200 hover:scale-105 hover:text-orange-500">
-              Frontend udvikling
+              Frontend-udvikling
             </h1>
           </Link>
           <Link to="/content">
