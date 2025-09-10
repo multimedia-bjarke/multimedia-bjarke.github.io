@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <header className="flex justify-between items-center fixed w-screen h-[10vh] text-white p-4">
-      <div className="transition-transform duration-50 ease-in-out hover:scale-105 hover:bg-[#ffff;] hover:rounded-full p-3">
+      <div className="transition-transform duration-50 ease-in-out hover:scale-105 hover:bg-[#ffff;] hover:rounded-full p-3 hover:cursor-pointer">
         <Link to="/">
           <img src="img/icons/HomeIcon_50px.svg" alt="Home" />
         </Link>
@@ -47,7 +47,7 @@ export default function Header() {
             className="w-12 h-12"
           />
         ) : (
-          <div className="transition-transform duration-50 ease-in-out hover:scale-105 hover:bg-[#ff9100;] hover:rounded-full p-2">
+          <div className="transition-transform duration-50 ease-in-out hover:scale-105 hover:bg-[#ff9100;] hover:rounded-full p-2 hover:cursor-pointer">
             <Link to="/menu">
               <img
                 src="/img/icons/MenuIcon_50px.svg"

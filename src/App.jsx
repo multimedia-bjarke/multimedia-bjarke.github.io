@@ -24,6 +24,10 @@ function App() {
           <Route path="/menu" element={<Menu />} />
         </Routes>
       </BrowserRouter>
+      <audio autoPlay loop controls className="hidden">
+        <source src="/audio/rnb.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
     </>
   );
 }
