@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function HomeCards() {
   const [cards, setCards] = useState([]);
@@ -15,7 +16,7 @@ export default function HomeCards() {
   return (
     <>
       {cards.map((card, index) => (
-        <a href={card.link} key={index}>
+        <Link to={card.link} key={index}>
           <div className="w-80 h-[32rem] bg-black rounded-2xl shadow-md flex flex-col justify-between transition-transform duration-200 hover:scale-105 hover:shadow-xl">
             <div className="flex flex-col h-1/2 w-full">
               <h2 className="mt-20 text-center text-white font-bold text-xxl">
@@ -30,7 +31,7 @@ export default function HomeCards() {
               />
             </div>
           </div>
-        </a>
+        </Link>
       ))}
     </>
   );
