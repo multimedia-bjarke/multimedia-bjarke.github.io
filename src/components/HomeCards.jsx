@@ -16,12 +16,18 @@ export default function HomeCards() {
     <>
       {cards.map((card, index) => (
         <a href={card.link} key={index}>
-          <div className="card">
-            <div className="card-title">
-              <h2>{card.title}</h2>
+          <div className="w-80 h-[32rem] bg-black rounded-2xl shadow-md flex flex-col justify-between transition-transform duration-200 hover:scale-105 hover:shadow-xl">
+            <div className="flex flex-col h-1/2 w-full">
+              <h2 className="mt-20 text-center text-white font-bold text-xl">
+                {card.title}
+              </h2>
             </div>
-            <div className="card-img">
-              <img id="imgSize" src={card.image} alt={card.alt || card.title} />
+            <div className="h-1/2 w-full flex rounded-b-2xl overflow-hidden">
+              <img
+                className="w-full h-full object-cover"
+                src={card.image}
+                alt={card.alt || card.title}
+              />
             </div>
           </div>
         </a>

@@ -185,7 +185,7 @@ h2 {
 }
 
 /*Section 2 - Cards*/
-.cardContainer {
+/* .cardContainer {
   height: auto;
   width: 100%;
   margin-top: -10rem;
@@ -219,9 +219,9 @@ h2 {
 
 .card h2 {
   margin-top: 5rem;
-}
+} */
 
-.card img {
+/* .card img {
   width: 100%;
   height: 100%;
   border-bottom-left-radius: 25px;
@@ -248,7 +248,7 @@ h2 {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
-
+ */
 .btn-cta {
   background-color: #ff9100;
   display: flex;

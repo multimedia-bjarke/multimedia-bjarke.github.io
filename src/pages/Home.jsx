@@ -1,4 +1,4 @@
-import HomeCards from "../components/HomeCards";
+/* import HomeCards from "../components/HomeCards";
 import BtnCTA from "../components/BtnCTA";
 import AnimatedText from "../components/AnimatedText";
 import Header from "../components/Header";
@@ -35,26 +35,27 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default HomePage; */
 
 /*With Tailwind CSS*/
 
-/* function HomePage() {
+import HomeCards from "../components/HomeCards";
+import BtnCTA from "../components/BtnCTA";
+import AnimatedText from "../components/AnimatedText";
+import Header from "../components/Header";
+
+function HomePage() {
   return (
     <>
       <header>
         <Header />
       </header>
-
-      <main
-        id="main-homepage"
-        className="flex flex-col items-center justify-start w-full min-h-screen bg-white px-4 sm:px-6 lg:px-16 py-8"
-      >
-        <section className="title-section text-center mb-12">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+      <main className="flex flex-col w-screen h-screen bg-[url('/img/backgrounds/Baggrund2.svg')] bg-cover bg-bottom bg-blend-color-burn mb-20">
+        <section className="flex flex-col items-center mb-40 mt-12">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center">
             Bjarke Holm
           </h1>
-          <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium text-gray-700">
+          <h3 className="italic text-xl md:text-2xl lg:text-3xl text-white mb-16">
             <AnimatedText
               initialText=""
               animatedTextArray={[
@@ -67,16 +68,17 @@ export default HomePage;
           </h3>
         </section>
 
-        <div className="cardContainer w-full grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center w-full h-full mb-12">
           <HomeCards />
         </div>
 
-        <div className="w-full flex justify-center">
+        <div className="flex justify-center">
           <BtnCTA />
         </div>
       </main>
+      ;
     </>
   );
 }
 
-export default HomePage; */
+export default HomePage;
