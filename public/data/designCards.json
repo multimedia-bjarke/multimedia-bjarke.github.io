@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Reklame",
+    "link": "src/pages/content"
+  },
+  {
+    "title": "CVI",
+    "link": "src/pages/content"
+  },
+  {
+    "title": "Poster",
+    "link": "src/pages/content"
+  },
+  {
+    "title": "Placeholder",
+    "link": "src/pages/content"
+  },
+  {
+    "title": "Google Ads",
+    "link": "src/pages/content"
+  },
+  {
+    "title": "Placeholder",
+    "link": "src/pages/content"
+  },
+  {
+    "title": "Koncertplakat",
+    "link": "src/pages/content"
+  }
+]
