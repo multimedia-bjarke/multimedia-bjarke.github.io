@@ -68,7 +68,7 @@ function HomePage() {
           </h3>
         </section>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 place-items-center w-full flex-grow">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 place-items-center min-w-[100%] xl:min-w-[100%] 2xl:min-w-[60%] place-self-center flex-grow">
           <HomeCards />
         </div>
 
