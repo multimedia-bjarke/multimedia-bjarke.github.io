@@ -10,32 +10,53 @@ export default function BentoGrid() {
         <h1>Reklame</h1>
       </Link>
 
-      <Link className="col-span-1 row-span-2 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]">
+      <Link
+        to="/"
+        className="col-span-1 row-span-2 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]"
+      >
         {" "}
         <h1>Poster</h1>
       </Link>
 
-      <Link className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]">
+      <Link
+        to="/"
+        className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]"
+      >
         <h1>Google Ads</h1>
       </Link>
-      <Link className="col-span-1 row-span-3 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]">
+      <Link
+        to="/"
+        className="col-span-1 row-span-3 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]"
+      >
         <h1>Koncertplakat</h1>
       </Link>
 
-      <Link className="col-span-1 row-span-2 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]">
+      <Link
+        to="/"
+        className="col-span-1 row-span-2 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]"
+      >
         {" "}
         <h1>CVI</h1>
       </Link>
 
-      <Link className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]">
+      <Link
+        to="/"
+        className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]"
+      >
         <h1>Placeholder</h1>
       </Link>
 
-      <Link className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]">
+      <Link
+        to="/"
+        className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]"
+      >
         <h1>Placeholder</h1>
       </Link>
 
-      <Link className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]">
+      <Link
+        to="/"
+        className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#ff9100]"
+      >
         <h1>Placeholder</h1>
       </Link>
     </div>
