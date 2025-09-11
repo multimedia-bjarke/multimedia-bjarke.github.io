@@ -43,6 +43,7 @@ import HomeCards from "../components/HomeCards";
 import BtnCTA from "../components/BtnCTA";
 import AnimatedText from "../components/AnimatedText";
 import Header from "../components/Header";
+import { Link } from "react-router";
 
 function HomePage() {
   return (
@@ -52,9 +53,12 @@ function HomePage() {
       </header>
       <main className="flex flex-col min-h-screen w-screen bg-[url('/img/backgrounds/Baggrund2.svg')] bg-cover bg-bottom bg-blend-color-burn">
         <section className="flex flex-col items-center  mt-12">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center">
-            Bjarke Holm
-          </h1>
+          <Link to="/about">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center">
+              Bjarke Holm
+            </h1>
+          </Link>
+
           <h3 className="italic text-xl md:text-2xl lg:text-3xl text-white mb-16">
             <AnimatedText
               initialText=""
