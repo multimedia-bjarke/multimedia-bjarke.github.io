@@ -4,7 +4,7 @@ export default function BtnReturn() {
   const navigate = useNavigate();
 
   function handleClick() {
-    navigate("/about#contact-section");
+    navigate(-1);
   }
 
   return (
@@ -50,8 +50,6 @@ export default function BtnReturn() {
           <img src="/img/icons/IconReturn.svg" alt="" />
         </button>
       </div>
-
-      <button></button>
     </>
   );
 }

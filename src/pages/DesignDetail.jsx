@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import projects from "../components/Projects";
 import BtnReturn from "../components/BtnReturn";
+import BtnCTA from "../components/BtnCTA";
 
 export default function DesignDetail() {
   const { slug } = useParams();
@@ -37,8 +38,9 @@ export default function DesignDetail() {
               </div>
             )}
           </div>
-          <div className="">
+          <div className="flex gap-10">
             <BtnReturn />
+            <BtnCTA />
           </div>
         </div>
 
