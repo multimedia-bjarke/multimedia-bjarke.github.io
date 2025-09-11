@@ -39,17 +39,17 @@ export default function Menu() {
       <section className="w-screen h-screen bg-[url('/img/backgrounds/BaggrundMenuUdenCirkel.svg')] bg-cover bg-center bg-fixed flex items-center justify-center">
         <button className="w-[80vw] max-w-[40rem] aspect-square bg-black text-white rounded-full flex flex-col items-center justify-center gap-4">
           <Link to="/design">
-            <h1 className="text-[5vw] md:text-3xl lg:text-5xl font-bold text-center transition-transform duration-200 hover:scale-105 hover:text-orange-500">
+            <h1 className="text-[5vw] md:text-3xl lg:text-5xl font-bold text-center transition-transform duration-200 hover:scale-105 hover:text-[#ff9100]">
               Design
             </h1>
           </Link>
           <Link to="/frontend">
-            <h1 className="text-[5vw] md:text-3xl lg:text-5xl font-bold text-center transition-transform duration-200 hover:scale-105 hover:text-orange-500">
+            <h1 className="text-[5vw] md:text-3xl lg:text-5xl font-bold text-center transition-transform duration-200 hover:scale-105 hover:text-[#ff9100]">
               Frontend-udvikling
             </h1>
           </Link>
           <Link to="/content">
-            <h1 className="text-[5vw] md:text-3xl lg:text-5xl font-bold text-center transition-transform duration-200 hover:scale-105 hover:text-orange-500">
+            <h1 className="text-[5vw] md:text-3xl lg:text-5xl font-bold text-center transition-transform duration-200 hover:scale-105 hover:text-[#ff9100]">
               Content Creation
             </h1>
           </Link>
