@@ -78,7 +78,7 @@ function HomePage() {
 
         <div
           className="
-        flex justify-center mt-8 mb-6 animate__animated animate__shakeY 
+        flex justify-center mt-6 mb-6 animate__animated animate__shakeY 
         md: md:mt-7 md:mb-12 "
         >
           <img src="/img/icons/ArrowIconOrange.svg" alt="orange pil" />
