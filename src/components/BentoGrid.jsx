@@ -1,5 +1,4 @@
 import { Link } from "react-router";
-import DeisgnDetail from "../pages/DesignDetail";
 
 export default function BentoGrid() {
   return (
@@ -26,39 +25,39 @@ export default function BentoGrid() {
         <h1>Google Ads</h1>
       </Link>
       <Link
-        to="/designdetail/koncertplakat"
+        to="/designdetail/fb-banner3"
         className="col-span-1 row-span-3 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#ff0000]"
       >
-        <h1>Event-plakat</h1>
+        <h1>FB-banner 3</h1>
       </Link>
 
       <Link
-        to="/designdetail/cvi"
+        to="/designdetail/website"
         className="col-span-1 row-span-2 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#ff0000]"
       >
         {" "}
-        <h1>CVI</h1>
+        <h1>Website</h1>
       </Link>
 
       <Link
-        to="/designdetail/placeholder-1"
+        to="/designdetail/fb-banner1"
         className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#ff5900]"
       >
-        <h1>FB-banner</h1>
+        <h1>FB-banner 1</h1>
       </Link>
 
       <Link
-        to="/designdetail/placeholder-2"
+        to="/designdetail/fb-banner2"
         className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#d30440] hover:bg-[#ff5900]"
       >
-        <h1>Placeholder</h1>
+        <h1>FB-banner 2</h1>
       </Link>
 
       <Link
-        to="/designdetail/placeholder-3"
+        to="/designdetail/persona"
         className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#ffd900]"
       >
-        <h1>Placeholder</h1>
+        <h1>Persona</h1>
       </Link>
     </div>
   );
