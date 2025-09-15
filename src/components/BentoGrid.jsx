@@ -4,8 +4,8 @@ export default function BentoGrid() {
   return (
     <div
       className="
-        grid w-screen gap-6 text-xl
-        px-4                                
+        grid w-screen gap-6 text-xl h-screen
+        px-10                                
         mt-20
         md:grid md:h-screen md:w-screen md:grid-cols-4 md:grid-rows-4 md:gap-14 md:m-16 text-xl
         lg:m-32
