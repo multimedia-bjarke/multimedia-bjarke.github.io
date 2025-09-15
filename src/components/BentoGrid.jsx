@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 export default function BentoGrid() {
   return (
-    <div className="grid h-screen w-screen grid-cols-4 grid-rows-4 gap-14 xl:m-40 lg:m-32 md:m-16 text-xl">
+    <div className="grid h-screen w-screen grid-cols-4 grid-rows-4 gap-14 xl:m-32 xl:mt-20 lg:m-32 md:m-16 text-xl">
       <Link
         to="/designdetail/reklame"
         className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#ff5900]"
@@ -12,7 +12,7 @@ export default function BentoGrid() {
 
       <Link
         to="/designdetail/poster"
-        className="col-span-1 row-span-2 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#ffd900]"
+        className="col-span-1 row-span-2 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#ffd900] "
       >
         {" "}
         <h1>Poster</h1>
@@ -33,7 +33,7 @@ export default function BentoGrid() {
 
       <Link
         to="/designdetail/website"
-        className="col-span-1 row-span-2 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#ff0000]"
+        className="col-span-1 row-span-2 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#ff0000] "
       >
         {" "}
         <h1>Website</h1>
@@ -48,14 +48,14 @@ export default function BentoGrid() {
 
       <Link
         to="/designdetail/fb-banner2"
-        className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#d30440] hover:bg-[#ff5900]"
+        className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#d30440] hover:bg-[#ff5900] "
       >
         <h1>FB-banner 2</h1>
       </Link>
 
       <Link
         to="/designdetail/persona"
-        className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#ffd900]"
+        className="col-span-1 row-span-1 rounded-xl bg-black flex items-center justify-center transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-[#fffff] hover:bg-[#ffd900] "
       >
         <h1>Persona</h1>
       </Link>

@@ -8,7 +8,9 @@ export default function DesignDetail() {
   const project = projects.find((p) => p.slug === slug);
 
   if (!project) {
-    return <h1 className="text-center text-2xl mt-10">Project not found ❌</h1>;
+    return (
+      <h1 className="text-center text-2xl mt-10">Intet projekt endnu ❌</h1>
+    );
   }
 
   return (

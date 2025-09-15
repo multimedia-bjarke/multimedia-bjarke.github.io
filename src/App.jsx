@@ -7,6 +7,7 @@ import Content from "./pages/Content";
 import Menu from "./pages/Menu";
 import { useEffect, useRef, useState } from "react";
 import DesignDetail from "./pages/DesignDetail";
+import "animate.css";
 
 function App() {
   const audioRef = useRef(null);
@@ -44,7 +45,7 @@ function App() {
       </BrowserRouter>
 
       {/* Audio element mounted once for the whole app */}
-      <audio ref={audioRef} loop className="visible">
+      <audio ref={audioRef} loop className="visible" muted>
         <source src="/audio/rnb.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>

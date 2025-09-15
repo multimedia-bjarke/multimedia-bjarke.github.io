@@ -17,7 +17,7 @@ export default function HomeCards() {
     <>
       {cards.map((card, index) => (
         <Link to={card.link} key={index}>
-          <div className="w-80 h-[32rem] bg-black rounded-2xl shadow-md flex flex-col justify-between transition-transform duration-200 hover:scale-105 hover:shadow-xl">
+          <div className="w-80 h-[32rem] bg-black rounded-2xl shadow-md flex flex-col justify-between transition-transform duration-200 hover:scale-105 hover:shadow-xl ">
             <div className="flex flex-col h-1/2 w-full">
               <h2 className="mt-20 text-center text-white font-bold text-xxl">
                 {card.title}
