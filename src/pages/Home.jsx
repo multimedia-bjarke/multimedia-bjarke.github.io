@@ -54,7 +54,7 @@ function HomePage() {
       <main className="flex flex-col min-h-screen w-screen bg-[url('/img/backgrounds/Baggrund2.svg')] bg-cover bg-bottom bg-blend-color-burn">
         <section className="flex flex-col items-center  mt-12">
           <Link to="/about">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center mt-5">
               Bjarke Holm
             </h1>
           </Link>
