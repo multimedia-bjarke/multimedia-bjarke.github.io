@@ -7,9 +7,10 @@ export default function BentoGrid() {
         grid w-screen gap-6 text-xl h-screen
         px-10                                
         mt-20
-        md:grid md:h-screen md:w-screen md:grid-cols-4 md:grid-rows-4 md:gap-14 md:m-16 text-xl
-        lg:m-32
-        xl:m-32 xl:mt-20
+        md:grid md:h-screen md:w-screen md:grid-cols-2 md:grid-rows-6 md:gap-14 md:m-16 text-xl
+        lg:mx-32 lg:grid-cols-4 lg:grid-rows-4 lg:gap-14
+        xl:mx-32 xl:mt-20 xl:grid-rows-4
+        w-full max-w-6xl px-4
       "
     >
       <Link
