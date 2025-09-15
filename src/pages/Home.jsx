@@ -76,7 +76,11 @@ function HomePage() {
           <HomeCards />
         </div>
 
-        <div className="flex justify-center mt-4 mb-12 animate__animated animate__shakeY ">
+        <div
+          className="
+        flex justify-center mt-8 mb-6 animate__animated animate__shakeY 
+        md: md:mt-7 md:mb-12 "
+        >
           <img src="/img/icons/ArrowIconOrange.svg" alt="orange pil" />
         </div>
 
