@@ -14,7 +14,7 @@ export default function Design() {
           </h1>
         </section>
 
-        <section className="flex justify-center font-bold m-0 animate__animated animate__lightSpeedInRight ">
+        <section className="flex justify-center font-bold m-0">
           <BentoGrid />
         </section>
       </main>

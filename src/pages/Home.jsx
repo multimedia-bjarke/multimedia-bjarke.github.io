@@ -76,11 +76,11 @@ function HomePage() {
           <HomeCards />
         </div>
 
-        <div className="flex justify-center mt-8 mb-12 animate__animated animate__shakeY ">
+        <div className="flex justify-center mt-4 mb-12 animate__animated animate__shakeY ">
           <img src="/img/icons/ArrowIconOrange.svg" alt="orange pil" />
         </div>
 
-        <div className="flex justify-center mt-12 mb-12">
+        <div className="flex justify-center  mb-12">
           <BtnCTA />
         </div>
       </main>
