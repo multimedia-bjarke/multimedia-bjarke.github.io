@@ -44,7 +44,7 @@ function App() {
       </BrowserRouter>
 
       {/* Audio element mounted once for the whole app */}
-      <audio ref={audioRef} loop className="visible" muted>
+      <audio ref={audioRef} loop className="visible">
         <source src="/audio/rnb.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
