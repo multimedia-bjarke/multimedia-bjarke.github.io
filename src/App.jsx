@@ -7,6 +7,7 @@ import Content from "./pages/Content";
 import Menu from "./pages/Menu";
 import { useEffect, useRef, useState } from "react";
 import DesignDetail from "./pages/DesignDetail";
+import ContentDetail from "./pages/ContentDetail";
 import "animate.css";
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           <Route path="/content" element={<Content />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/designdetail/:slug" element={<DesignDetail />} />
+          <Route path="/contentdetail/:slug" element={<ContentDetail />} />
         </Routes>
       </BrowserRouter>
 
