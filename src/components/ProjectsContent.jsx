@@ -47,10 +47,10 @@ const projects = [
     slug: "reel1",
     title: "IG reel - Saab 900i ",
     description:
-      "Et Facebookbanner for Føtex ifm. annoncering af nyåbnet butik. ",
+      "En reeel jeg har lavet ifm. et privat fotoshoot, hvor jeg fandt denne skønne vintage Saab 900i. Jeg har selv skudt billederne på mit Sony a6000 kamera og redigeret billederne i Adobe Lightroom.",
     video: "https://www.youtube.com/embed/3W-S6uHGsJU",
     aspect: "9:16",
-    tools: ["InDesign", "Illustrator", "Photoshop", "Figma"],
+    tools: ["Final Cut Pro X", "Lightroom", "Motion", "Instagram"],
   },
   {
     slug: "fb-banner2",
