@@ -16,7 +16,6 @@ export default function DesignDetail() {
   return (
     <div className="w-screen min-h-screen bg-black/60 flex items-center justify-center p-6">
       <div className="w-full h-full max-w-6xl bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col lg:flex-row">
-        {/* Left side: text */}
         <div className="flex-1 p-8 flex flex-col justify-between">
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-500 mb-6">
@@ -40,7 +39,11 @@ export default function DesignDetail() {
               </div>
             )}
           </div>
-          <div className="flex gap-10">
+          <div
+            className="flex flex-col gap-10 mt-10
+          md:flex-row
+          "
+          >
             <BtnReturn />
             <BtnCTA />
           </div>
