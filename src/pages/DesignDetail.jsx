@@ -53,7 +53,6 @@ export default function DesignDetail() {
         <div className="hidden lg:block w-1 bg-amber-500"></div>
         <div className="lg:hidden h-1 bg-amber-500 mx-8"></div>
 
-        {/* Right side: image */}
         <div className="flex-1 flex items-center justify-center p-8">
           {project.image && (
             <img
