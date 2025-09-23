@@ -8,6 +8,7 @@ import Menu from "./pages/Menu";
 import { useEffect, useRef, useState } from "react";
 import DesignDetail from "./pages/DesignDetail";
 import ContentDetail from "./pages/ContentDetail";
+import FrontendDetail from "./pages/FrontendDetail";
 import "animate.css";
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/designdetail/:slug" element={<DesignDetail />} />
           <Route path="/contentdetail/:slug" element={<ContentDetail />} />
+          <Route path="/frontenddetail/:slug" element={<FrontendDetail />} />
         </Routes>
       </BrowserRouter>
 
