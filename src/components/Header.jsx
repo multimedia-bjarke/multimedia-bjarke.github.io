@@ -35,7 +35,7 @@ export default function Header() {
           <img
             src="/img/buttons/HomeButton.svg"
             alt="Home"
-            className="w-12 h-12"
+            className="w-14 h-14"
           />
         </Link>
       </div>
