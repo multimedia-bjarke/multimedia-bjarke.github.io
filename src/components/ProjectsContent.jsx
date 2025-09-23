@@ -81,12 +81,13 @@ const projects = [
     tools: ["Final Cut Pro X", "Lightroom", "Motion", "Instagram"],
   },
   {
-    slug: "fb-banner2",
-    title: "FB-banner 2",
+    slug: "musikproduktion",
+    title: "Musikproduktion",
     description:
-      "Et Facebookbanner for en stuekoncert jeg var med til at hoste og spille til med mit band i Aarhus. ",
-    image: "/img/projects/FB_cover_Stuekoncert_Brendstrupgaard2025_v1.jpg",
-    tools: ["InDesign", "Illustrator", "Photoshop", "Figma"],
+      "Et remix/arrangement jeg lavede som eksamensprojekt på 2. semester af min bachelor i Musikvidenskab fra Aarhus Universitet. Jeg har selv isoleret vokalen via et AI værktøj og derefter klippet det, tunet det og timeflexed det i logic pro. Efter jeg havde klartgjort og tilpasset vokalklippet, lavede jeg et hip-hop beat i logic pro og komponerede og indspillede alle instrumentale roller dertil. Til sidst mixede jeg og masterede den. ",
+    video: "https://www.youtube.com/embed/YRRO0DxobYk?feature",
+    aspect: "9:16",
+    tools: ["Logic Pro", "Final Cut Pro X", "Online AI tool"],
   },
 
   {
