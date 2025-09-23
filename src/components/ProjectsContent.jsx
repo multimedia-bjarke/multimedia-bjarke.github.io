@@ -35,11 +35,17 @@ const projects = [
     tools: ["InDesign", "Illustrator"],
   },
   {
-    slug: "website",
-    title: "Website",
+    slug: "fotografi",
+    title: "Fotografi",
     description:
       "Som 1. Semester eksamensprojekt på multimediedesign-uddannelsen, skulle vi redesigne det aarhusianske spillested Radars hjemmeside. Projeketet var et solo-projekt. Hele processen fra UX-research, Design og Programmering har jeg udført. ",
-    image: "/img/projects/1sem-project-landingpage.svg",
+    images: [
+      "/img/projects/1sem-project-landingpage.svg",
+      "/img/projects/1sem-project-landingpage.svg",
+      "/img/projects/1sem-project-landingpage.svg",
+      "/img/projects/1sem-project-landingpage.svg",
+      "/img/projects/1sem-project-landingpage.svg",
+    ],
     tools: ["Lightroom", "Photoshop", "Figma", "HTML5", "CSS", "Webhosting"],
   },
 

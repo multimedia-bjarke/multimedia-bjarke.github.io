@@ -2,6 +2,11 @@ import { useParams } from "react-router-dom";
 import projects from "../components/ProjectsContent";
 import BtnReturn from "../components/BtnReturn";
 import BtnCTA from "../components/BtnCTA";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function ContentDetail() {
   const { slug } = useParams();
@@ -14,8 +19,9 @@ export default function ContentDetail() {
   }
 
   return (
-    <div className="w-screen min-h-screen bg-black/60 flex items-center justify-center p-6]">
+    <div className="w-screen min-h-screen bg-black/60 flex items-center justify-center p-6">
       <div className="w-full h-full max-w-5xl bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col lg:flex-row">
+        {/* Left side */}
         <div className="flex-1 p-8 flex flex-col justify-between">
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-500 mb-6">
@@ -25,25 +31,21 @@ export default function ContentDetail() {
               {project.description}
             </p>
           </div>
-          <div>
-            {project.tools && project.tools.length > 0 && (
-              <div>
-                <p className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
-                  Værktøjer i denne kontekst:
-                </p>
-                <ul className="list-disc list-inside text-lg md:text-xl text-gray-700 space-y-1">
-                  {project.tools.map((tool, index) => (
-                    <li key={index}>{tool}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-          <div
-            className="flex flex-col gap-10 mt-10
-          md:flex-row
-          "
-          >
+
+          {project.tools && project.tools.length > 0 && (
+            <div>
+              <p className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
+                Værktøjer i denne kontekst:
+              </p>
+              <ul className="list-disc list-inside text-lg md:text-xl text-gray-700 space-y-1">
+                {project.tools.map((tool, index) => (
+                  <li key={index}>{tool}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <div className="flex flex-col gap-10 mt-10 md:flex-row">
             <BtnReturn />
             <BtnCTA />
           </div>
@@ -53,10 +55,11 @@ export default function ContentDetail() {
         <div className="hidden lg:block w-1 bg-amber-500"></div>
         <div className="lg:hidden h-1 bg-amber-500 mx-8"></div>
 
-        <div className="flex-1 flex items-center justify-center p-8">
+        {/* Right side */}
+        <div className="flex-1 flex items-center justify-center p-6 md:p-10">
           {project.video ? (
             <div
-              className={`relative w-full max-w-sm md:max-w-md lg:max-w-lg ${
+              className={`relative w-full ${
                 project.aspect === "9:16" ? "aspect-[9/16]" : "aspect-video"
               }`}
             >
@@ -69,11 +72,30 @@ export default function ContentDetail() {
                 allowFullScreen
               ></iframe>
             </div>
+          ) : project.images ? (
+            <Swiper
+              modules={[Navigation, Pagination]}
+              navigation
+              pagination={{ clickable: true }}
+              spaceBetween={20}
+              slidesPerView={1}
+              className="w-full max-w-[22rem] rounded-xl shadow-lg"
+            >
+              {project.images.map((img, index) => (
+                <SwiperSlide key={index}>
+                  <img
+                    src={img}
+                    alt={`${project.title} - billede ${index + 1}`}
+                    className="w-full rounded-xl shadow-lg object-cover"
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
           ) : project.image ? (
             <img
               src={project.image}
               alt={project.title}
-              className="w-full max-w-sm md:max-w-md lg:max-w-lg rounded-xl shadow-lg object-cover"
+              className="w-full rounded-xl shadow-lg object-cover"
             />
           ) : null}
         </div>
