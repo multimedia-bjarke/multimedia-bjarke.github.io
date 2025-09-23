@@ -27,12 +27,13 @@ const projects = [
     tools: ["Final Cut Pro X", "Motion"],
   },
   {
-    slug: "test",
-    title: "Promovideo - test",
+    slug: "motiongraphic",
+    title: "Motion graphic",
     description:
-      "Facebook banner lavet ifm. med et grill-event i min boligforening.",
-    image: "/img/projects/FB_event_grillhygge_2025_v1.jpg",
-    tools: ["InDesign", "Illustrator"],
+      "I mit studiejob hos Skovgaard & Damgaard har jeg lavet lidt motion graphics ifm. uarbejdelse af promovideoer. Her ses et eksempel på en simpel motion graphic i slutningen af denne reel for partybandet The Powls. Se derfor gerne videoen til ende.",
+    video: "https://www.youtube.com/embed/LwOtNHPpRm4",
+    aspect: "9:16",
+    tools: ["Final Cut Pro X", "Motion"],
   },
   {
     slug: "fotografi",

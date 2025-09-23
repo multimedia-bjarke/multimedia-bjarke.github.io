@@ -38,7 +38,7 @@ export default function BentoGridContent() {
       </Link>
 
       <Link
-        to="/contentdetail/"
+        to="/contentdetail/motiongraphic"
         className="col-span-1 md:row-span-3 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#ff0000]"
       >
