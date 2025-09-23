@@ -91,7 +91,7 @@ export default function FrontendDetail() {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full rounded-xl shadow-lg object-cover"
+              className="w-full rounded-xl  object-cover"
             />
           ) : null}
         </div>

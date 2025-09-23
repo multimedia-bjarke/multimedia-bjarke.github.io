@@ -5,71 +5,163 @@ const projects = [
     description:
       "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla HTML5.",
     image: "/img/icons/HTML.svg",
-    tools: ["Hjemmeside programmering", "React", "VS code"],
+    tools: [
+      "Hjemmeside programmering",
+      "React",
+      "VS code",
+      "CSS",
+      "JavaScript",
+    ],
   },
   {
     slug: "css",
     title: "CSS - vanilla",
     description:
-      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla HTML5.",
-    video: "https://www.youtube.com/embed/m8HyQISM8pg",
-    aspect: "16:9",
-    tools: ["Final Cut Pro X", "Motion"],
+      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla CSS herunder CSS-variabler, scopes, animationer og API'er",
+    image: "/img/icons/CSS.svg",
+    tools: [
+      "Hjemmeside programmering",
+      "React",
+      "VS code",
+      "CSS",
+      "JavaScript",
+    ],
   },
   {
-    slug: "promo2",
-    title: "Promovideo - band",
+    slug: "javascript",
+    title: "JavaScript - vanilla",
     description:
-      "Gennem mit studiejob hos reklamebureauet Skovgaard & Damgaard har jeg klippet flere promovideoer, her for partybandet The Powls som reklamevideo til Meta Ads på højkants platforme.",
-    video: "https://www.youtube.com/embed/WsSRduLdgsU",
-    aspect: "9:16",
-    tools: ["Final Cut Pro X", "Motion"],
+      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla JavaScript herunder funktioner, variabler, DOM, scopes, animationer, libraries og API'er.",
+    image: "/img/icons/JS.svg",
+    tools: [
+      "Hjemmeside programmering",
+      "Webapp programmering",
+      "React",
+      "VS code",
+      "CSS",
+      "JavaScript",
+    ],
   },
   {
-    slug: "motiongraphic",
-    title: "Motion graphic",
+    slug: "react",
+    title: "React.js",
     description:
-      "I mit studiejob hos Skovgaard & Damgaard har jeg lavet lidt motion graphics ifm. uarbejdelse af promovideoer. Her ses et eksempel på en simpel motion graphic i slutningen af denne reel for partybandet The Powls. Se derfor gerne videoen til ende.",
-    video: "https://www.youtube.com/embed/LwOtNHPpRm4",
-    aspect: "9:16",
-    tools: ["Final Cut Pro X", "Motion"],
+      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla React herunder komponentstruktur, funktionstyper, variabler, import/export, V-DOM, scopes, animationer, libraries og API'er.",
+    image: "/img/icons/react.svg",
+    tools: [
+      "Hjemmeside programmering",
+      "Webapp programmering",
+      "Dette portfolio website",
+      "VS code",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "JS libraries (swiperjs, animate.css, bootstrap)",
+      "Vite",
+    ],
   },
   {
-    slug: "fotografi",
-    title: "Fotografi",
+    slug: "tailwind",
+    title: "Tailwind CSS",
     description:
-      "I min fritid elsker jeg at tage billeder! Derfor for du her at se et udpluk af mine fotografier, som jeg selv har skudt og redigeret. Billederne er delvist skudt på Canon 5D mkii og Sony A6000 med vintage objektiver. Jeg elsker motiver som: arkitektur, natur og vintage køretøjer. ",
-    images: "/img/fotografi/Biker.jpg",
-    tools: ["Lightroom", "Photoscape X", "Sony A6000", "Canon 5D mkii"],
+      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla React herunder komponentstruktur, funktionstyper, variabler, import/export, V-DOM, scopes, animationer, libraries og API'er.",
+    image: "/img/icons/TW.svg",
+    tools: [
+      "Hjemmeside programmering",
+      "Webapp programmering",
+      "Dette portfolio website",
+      "VS code",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "JS libraries (swiperjs, animate.css, bootstrap)",
+      "Vite",
+    ],
   },
 
   {
-    slug: "reel1",
-    title: "IG reel - Saab 900i ",
+    slug: "wordpress",
+    title: "Wordpress ",
     description:
-      "En reeel jeg har lavet ifm. et privat fotoshoot, hvor jeg fandt denne skønne vintage Saab 900i. Jeg har selv skudt billederne på mit Sony a6000 kamera og redigeret billederne i Adobe Lightroom.",
-    video: "https://www.youtube.com/embed/3W-S6uHGsJU",
-    aspect: "9:16",
-    tools: ["Final Cut Pro X", "Lightroom", "Motion", "Instagram"],
+      "Gennem mit studiejob i reklamebureauet Skovgaard & Damgaard har jeg stiftet bekendskab med Wordpress i forbindelse med opsætning af blogposts for forksellige kunder.",
+    image: "/img/icons/WP.svg",
+    tools: ["Hjemmesideopsætning", "Blogposts"],
   },
   {
-    slug: "musikproduktion",
-    title: "Musikproduktion",
+    slug: "vscode",
+    title: "VS code - editor",
     description:
-      "Et remix/arrangement jeg lavede som eksamensprojekt på 2. semester af min bachelor i Musikvidenskab fra Aarhus Universitet. Jeg har selv isoleret vokalen via et AI værktøj og derefter klippet det, tunet det og timeflexed det i logic pro. Efter jeg havde klartgjort og tilpasset vokalklippet, lavede jeg et hip-hop beat i logic pro og komponerede og indspillede alle instrumentale roller dertil. Til sidst mixede jeg og masterede den. ",
-    video: "https://www.youtube.com/embed/YRRO0DxobYk?feature",
-    aspect: "9:16",
-    tools: ["Logic Pro", "Final Cut Pro X", "Online AI tool"],
+      "Gennem min uddannelse som multimediedesigner har jeg brugt VS code som min main code editor og lært det godt at kende, herunder extensions, terminal og opsætning.",
+    image: "/img/icons/VS.svg",
+    tools: [
+      "Hjemmeside programmering",
+      "Webapp programmering",
+      "VS code",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "JS libraries (swiperjs, animate.css, bootstrap)",
+      "Vite",
+    ],
   },
 
   {
-    slug: "kortfilm",
-    title: "Kortfilm - Dreamland",
+    slug: "api",
+    title: "API'er",
     description:
-      "Kortfilmen Dreamland er mit eksamensprojekt fra 6. semester af min bachelor på mit tilvalgsfag i film og medier (tilvalgsudbuddet fra Medievidenskab, AU) på Aarhus Universitet 2024. Projektet blev udarbejdet som et gruppeprojekt, hvor jeg sammen med min studiegruppe konceptudviklede, skrev manus, planlagde shoots, skød videomaterialet, bookede locations, klippede, redigerede og colorgradede. Jeg var med inde over alle dele af projeket, men var primærklipper og kamerafører. ",
-    video: "https://www.youtube.com/embed/Om-VPFgwOGQ?si=8OEum320vdUVpynR",
-    aspect: "16:9",
-    tools: ["Davinci Resolve", "Logic Pro", "PhotoScape X", "Upright Music"],
+      "Gennem min uddannelse som multimediedesigner har jeg fået lidt kendskab til API'er og hvordan man anvender og implementerer dem i web-projekter.",
+    image: "/img/icons/api-black.svg",
+    tools: [
+      "Hjemmeside programmering",
+      "Webapp programmering",
+      "VS code",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "JS libraries (swiperjs, animate.css, bootstrap)",
+      "Vite",
+    ],
+  },
+
+  {
+    slug: "git",
+    title: "Git - version control system",
+    description:
+      "Gennem min uddannelse som multimediedesigner har jeg hyppigt benyttet mig af git i web-projekter til at kontrollere og navigere i forskellige fil-versioner. Jeg opsætter altid mine projekter via GitHub desktop, så jeg har overblik over forskellige versioner af mine projekter.",
+    image: "/img/icons/GIT.svg",
+    tools: ["Hjemmeside programmering", "Webapp programmering", "VS code"],
+  },
+
+  {
+    slug: "googledev",
+    title: "Google dev tools",
+    description:
+      "Gennem min uddannelse som multimediedesigner har jeg hyppigt benyttet mig af Google Dev Tools i web-projekter til at kontrollere og analyse min webudvikling.",
+    image: "/img/icons/GoogleDEV.svg",
+    tools: ["Hjemmeside programmering", "Webapp programmering", "VS code"],
+  },
+
+  {
+    slug: "github",
+    title: "GitHub",
+    description:
+      "Ligesom med Git har jeg under min uddannelse som multimediedesigner hyppigt benyttet mig af GitHub både online og som desktop app. Jeg har brugt det i web-projekter til at kontrollere og navigere i forskellige fil-versioner og hente kode templates. Jeg opsætter altid mine projekter via GitHub desktop, så jeg har overblik over forskellige versioner af mine projekter.",
+    image: "/img/icons/github-black.svg",
+    tools: ["Hjemmeside programmering", "Webapp programmering", "VS code"],
+  },
+
+  {
+    slug: "figma",
+    title: "Figma",
+    description:
+      "Gennem min uddannelse som multimediedesigner har jeg brug Figma ENORMT meget - og elsker det! Primært har jeg brugt figJam til gruppearbejde og til at opsamle data fra UX-reserach og generel projektstyring. Figma design har jeg brugt primært til at designe websites og alt hvad der hører med dertil (CVI, logo, menuer osv.). Jeg har også brugt det til at lave prototyper, samt deres kode-funktioner til at analysere og nemt oversætte mit design til kode! Jeg kender de fleste genveje og forstår brugen af extensions.",
+    image: "/img/icons/FIGMA.svg",
+    tools: [
+      "Hjemmeside programmering",
+      "Webapp programmering",
+      "Prototyping",
+      "Webdesign",
+    ],
   },
 ];
 

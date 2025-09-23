@@ -23,7 +23,7 @@ export default function BentoGridFrontend() {
       </Link>
 
       <Link
-        to="/contentdetail/promo1"
+        to="/frontenddetail/css"
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center p-4
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
@@ -31,7 +31,7 @@ export default function BentoGridFrontend() {
       </Link>
 
       <Link
-        to="/contentdetail/promo2"
+        to="/frontenddetail/javascript"
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center p-4
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
@@ -39,7 +39,7 @@ export default function BentoGridFrontend() {
       </Link>
 
       <Link
-        to="/contentdetail/motiongraphic"
+        to="/frontenddetail/react"
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center p-4
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
@@ -47,7 +47,7 @@ export default function BentoGridFrontend() {
       </Link>
 
       <Link
-        to="/contentdetail/fotografi"
+        to="/frontenddetail/tailwind"
         className="col-start-2 md:row-span-1 rounded-xl bg-black flex items-center justify-center p-4
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
@@ -55,7 +55,7 @@ export default function BentoGridFrontend() {
       </Link>
 
       <Link
-        to="/contentdetail/reel1"
+        to="/frontenddetail/wordpress"
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center p-4
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
@@ -63,7 +63,7 @@ export default function BentoGridFrontend() {
       </Link>
 
       <Link
-        to="/contentdetail/musikproduktion"
+        to="/frontenddetail/vscode"
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center p-4
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
@@ -71,7 +71,7 @@ export default function BentoGridFrontend() {
       </Link>
 
       <Link
-        to="/contentdetail/kortfilm"
+        to="/frontenddetail/api"
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center p-4
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
@@ -79,7 +79,7 @@ export default function BentoGridFrontend() {
       </Link>
 
       <Link
-        to="/contentdetail/kortfilm"
+        to="/frontenddetail/git"
         className="col-start-3 md:row-span-1 rounded-xl bg-black flex items-center justify-center p-4
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
@@ -87,7 +87,7 @@ export default function BentoGridFrontend() {
       </Link>
 
       <Link
-        to="/contentdetail/kortfilm"
+        to="/frontenddetail/googledev"
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center p-4
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
@@ -95,7 +95,7 @@ export default function BentoGridFrontend() {
       </Link>
 
       <Link
-        to="/contentdetail/kortfilm"
+        to="/frontenddetail/github"
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center p-4
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
@@ -103,7 +103,7 @@ export default function BentoGridFrontend() {
       </Link>
 
       <Link
-        to="/contentdetail/kortfilm"
+        to="/frontenddetail/figma"
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center p-4
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
