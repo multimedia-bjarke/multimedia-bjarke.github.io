@@ -15,7 +15,7 @@ export default function BentoGridFrontend() {
       "
     >
       <Link
-        to="/contentdetail/test"
+        to="/frontenddetail/html"
         className="col-start-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >

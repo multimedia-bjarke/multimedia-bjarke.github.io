@@ -88,15 +88,9 @@ function HomePage() {
         <div className="flex justify-center  mb-12">
           <div className="flex-col justify-items-center">
             <BtnCTA />
-            <div
-              className="flex w-[100%] opacity-100 mt-12 items-center
-"
-            >
+            <div className="flex w-[100%] opacity-100 mt-12 items-center flex-col gap-10 md:flex-row ">
               <MusicPlayer src="/audio/rnb.mp3" autoplay="true" />
-              <p
-                className="text-black ml-20 italic font-medium text-[#ff9100]
-"
-              >
+              <p className=" text-[#ff9100] ml-20 italic font-medium">
                 Hør lidt stemningsmusik imens du overvejer hvor du skal hen
               </p>
             </div>

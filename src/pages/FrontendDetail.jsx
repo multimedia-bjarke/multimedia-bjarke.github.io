@@ -30,7 +30,7 @@ export default function FrontendDetail() {
           {project.tools && project.tools.length > 0 && (
             <div>
               <p className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
-                Værktøjer i denne kontekst:
+                Anvendt i forbindelse med:
               </p>
               <ul className="list-disc list-inside text-lg md:text-xl text-gray-700 space-y-1">
                 {project.tools.map((tool, index) => (

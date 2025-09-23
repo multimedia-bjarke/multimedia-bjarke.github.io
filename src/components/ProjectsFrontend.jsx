@@ -1,18 +1,17 @@
 const projects = [
   {
-    slug: "Test",
-    title: "Podcast - Dagens Digt",
+    slug: "html",
+    title: "HTML5 - vanilla",
     description:
-      "Her er et test podcast-projekt jeg har lavet til min portfolio. Det hedder Dagens Digt og konceptet går ud på at introducere til nordiske digtere, samt at skabe et pusterum i en ellers travl hverdag. Alt hvad du ser og hører har jeg produceret (minus selve digtet). Collage lavet i Photoshop, videoen er klippet og redigeret i Davinci Resolve, musikken har jeg komponeret og indspillet via Logic Pro og jeg har selv fundet på konseptet.",
-    video: "https://www.youtube.com/embed/hRwOQeYt2lU",
-    aspect: "16:9",
-    tools: ["Logic Pro", "Davinci Resolve", "Photoshop"],
+      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla HTML5.",
+    image: "/img/icons/HTML.svg",
+    tools: ["Hjemmeside programmering", "React", "VS code"],
   },
   {
-    slug: "promo1",
-    title: "Promovideo - højskole",
+    slug: "css",
+    title: "CSS - vanilla",
     description:
-      "Gennem mit studiejob hos reklamebureauet Skovgaard & Damgaard har jeg klippet flere promovideoer, bl.a. for højskolen Skærgaarden. Videomaterialet er skudt af min kollega Jakob og så har jeg udvalgt materiale, klippet det, redigeret det og colorgraded det.",
+      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla HTML5.",
     video: "https://www.youtube.com/embed/m8HyQISM8pg",
     aspect: "16:9",
     tools: ["Final Cut Pro X", "Motion"],

@@ -15,7 +15,7 @@ export default function Frontend() {
             <h1 className="flex text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center mt-20 ">
               Frontend
             </h1>
-            <h2 className="italic font-medium mt-12">
+            <h2 className="italic font-medium mt-10">
               Jeg har erfaring med følgende værktøjer
             </h2>
           </div>
