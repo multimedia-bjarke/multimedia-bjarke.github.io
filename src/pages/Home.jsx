@@ -44,6 +44,7 @@ import BtnCTA from "../components/BtnCTA";
 import AnimatedText from "../components/AnimatedText";
 import Header from "../components/Header";
 import { Link } from "react-router";
+import MusicPlayer from "../components/MusicPlayer";
 
 function HomePage() {
   return (
@@ -54,7 +55,7 @@ function HomePage() {
       <main className="flex flex-col min-h-screen w-screen bg-[url('/img/backgrounds/Baggrund2.svg')] bg-cover bg-bottom bg-blend-color-burn">
         <section className="flex flex-col items-center  mt-12">
           <Link to="/about">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center mt-10 lg:mt-0 md:mt-0">
+            <h1 className=" text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center mt-10 lg:mt-0 md:mt-0">
               Bjarke Holm
             </h1>
           </Link>
@@ -85,7 +86,21 @@ function HomePage() {
         </div>
 
         <div className="flex justify-center  mb-12">
-          <BtnCTA />
+          <div className="flex-col justify-items-center">
+            <BtnCTA />
+            <div
+              className="flex w-[100%] opacity-100 mt-12 items-center
+"
+            >
+              <MusicPlayer src="/audio/rnb.mp3" autoplay="true" />
+              <p
+                className="text-black ml-20 italic font-medium text-[#ff9100]
+"
+              >
+                Hør lidt stemningsmusik imens du overvejer hvor du skal hen
+              </p>
+            </div>
+          </div>
         </div>
       </main>
       ;

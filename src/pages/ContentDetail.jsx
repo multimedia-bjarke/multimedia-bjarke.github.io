@@ -3,7 +3,7 @@ import projects from "../components/ProjectsContent";
 import BtnReturn from "../components/BtnReturn";
 import BtnCTA from "../components/BtnCTA";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Keyboard } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -74,9 +74,10 @@ export default function ContentDetail() {
             </div>
           ) : project.images ? (
             <Swiper
-              modules={[Navigation, Pagination]}
+              modules={[Navigation, Pagination, Keyboard]}
               navigation
               pagination={{ clickable: true }}
+              keyboard={{ enabled: true, onlyInViewport: true }}
               spaceBetween={20}
               slidesPerView={1}
               className="w-full max-w-[22rem] rounded-xl shadow-lg"
