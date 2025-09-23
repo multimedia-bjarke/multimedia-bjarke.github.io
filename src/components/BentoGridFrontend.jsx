@@ -7,8 +7,8 @@ export default function BentoGridFrontend() {
         grid w-screen gap-6 text-xl h-screen
         px-14                                
         mt-20
-        sm:grid-cols-1
-        md:grid md:h-screen md:w-screen md:grid-cols-2 md:grid-rows-6 md:gap-14 md:m-16 text-xl
+        sm: grid sm:grid-cols-1
+        md:grid md:h-screen md:w-screen md:grid-cols-3 md:grid-rows-6 md:gap-14 md:m-16 text-xl
         lg:mx-32 lg:grid-cols-6 lg:grid-rows-4 lg:gap-14
         xl:mx-32 xl:mt-20 xl:grid-rows-4
         w-full max-w-6xl px-4
@@ -19,7 +19,7 @@ export default function BentoGridFrontend() {
         className="col-start-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="src/assets/images/icons/HTML.svg" alt="" />
+        <img src="/img/icons/HTML.svg" alt="" />
       </Link>
 
       <Link
@@ -27,7 +27,7 @@ export default function BentoGridFrontend() {
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="src/assets/images/icons/CSS.svg" alt="" />
+        <img src="/img/icons/CSS.svg" alt="" />
       </Link>
 
       <Link
@@ -35,7 +35,7 @@ export default function BentoGridFrontend() {
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="src/assets/images/icons/JS.svg" alt="" />
+        <img src="/img/icons/JS.svg" alt="" />
       </Link>
 
       <Link
@@ -43,7 +43,7 @@ export default function BentoGridFrontend() {
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="src/assets/images/icons/REACT.svg" alt="" />
+        <img src="/img/icons/REACT.svg" alt="" />
       </Link>
 
       <Link
@@ -51,7 +51,7 @@ export default function BentoGridFrontend() {
         className="col-start-2 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="src/assets/images/icons/TW.svg" alt="" />
+        <img src="/img/icons/TW.svg" alt="" />
       </Link>
 
       <Link
@@ -59,7 +59,7 @@ export default function BentoGridFrontend() {
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="src/assets/images/icons/WP.svg" alt="" />
+        <img src="/img/icons/WP.svg" alt="" />
       </Link>
 
       <Link
@@ -67,7 +67,7 @@ export default function BentoGridFrontend() {
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="src/assets/images/icons/VS.svg" alt="" />
+        <img src="/img/icons/VS.svg" alt="" />
       </Link>
 
       <Link
@@ -75,7 +75,7 @@ export default function BentoGridFrontend() {
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="src/assets/images/icons/API.svg" alt="" />
+        <img src="/img/icons/API.svg" alt="" />
       </Link>
 
       <Link
@@ -83,7 +83,7 @@ export default function BentoGridFrontend() {
         className="col-start-3 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="src/assets/images/icons/GIT.svg" alt="" />
+        <img src="/img/icons/GIT.svg" alt="" />
       </Link>
 
       <Link
@@ -91,7 +91,7 @@ export default function BentoGridFrontend() {
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="src/assets/images/icons/GoogleDev.svg" alt="" />
+        <img src="/img/icons/GoogleDEV.svg" alt="" />
       </Link>
 
       <Link
@@ -99,7 +99,7 @@ export default function BentoGridFrontend() {
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="src/assets/images/icons/GitHub.svg" alt="" />
+        <img src="/img/icons/GitHub.svg" alt="" />
       </Link>
 
       <Link
@@ -107,7 +107,7 @@ export default function BentoGridFrontend() {
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center 
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="src/assets/images/icons/FIGMA.svg" alt="" />
+        <img src="/img/icons/FIGMA.svg" alt="" />
       </Link>
     </div>
   );

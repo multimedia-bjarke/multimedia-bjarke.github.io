@@ -53,6 +53,11 @@ export default function Menu() {
               Content Creation
             </h1>
           </Link>
+          <Link to="/about">
+            <h1 className="text-[8vw] lg:text-5xl md:text-5xl font-bold text-center transition-transform duration-200 hover:scale-105 hover:text-[#ff9100]">
+              Om mig
+            </h1>
+          </Link>
         </button>
       </section>
     </>
