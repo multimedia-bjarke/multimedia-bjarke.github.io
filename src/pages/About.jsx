@@ -110,6 +110,28 @@ export default function About() {
           </div>
         </section>
 
+        {/*Section - CV */}
+        <section className="flex flex-col items-center w-screen gap-16 px-4">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black text-center mt-20 mb-20">
+            Erfaring
+          </h1>
+
+          {/* SK card */}
+          <div className="flex justify-center w-full">
+            <div className="w-full max-w-[40rem] h-auto md:h-[32rem] bg-black rounded-2xl shadow-md flex flex-col justify-center text-white p-5">
+              <h2 className="text-3xl md:text-4xl text-center">
+                Skovgaard & Damgaard
+              </h2>
+              <div className="flex flex-col items-center mt-8 md:mt-12 text-xl md:text-2xl gap-4 text-center">
+                <p>2024 -</p>
+                <p>Digitalt bureau</p>
+                <p>Multimediedesigner (studiejob)</p>
+                <p>Wordpress, Adobe Suite, Final Cut Pro, Motion</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/*Section - personligt */}
         <section className="flex flex-col items-center w-screen gap-16 px-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black text-center mt-20 mb-20">
