@@ -10,6 +10,7 @@ import DesignDetail from "./pages/DesignDetail";
 import ContentDetail from "./pages/ContentDetail";
 import FrontendDetail from "./pages/FrontendDetail";
 import "animate.css";
+import ScrollToHash from "./components/ScrollToHash";
 
 function App() {
   const audioRef = useRef(null);
@@ -35,6 +36,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToHash />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
