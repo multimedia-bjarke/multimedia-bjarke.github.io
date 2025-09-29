@@ -47,7 +47,7 @@ const projects = [
     title: "React.js",
     description:
       "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla React herunder komponentstruktur, funktionstyper, variabler, import/export, V-DOM, scopes, animationer, libraries og API'er.",
-    image: "/img/icons/react.svg",
+    image: "/img/icons/REACT.svg",
     tools: [
       "Hjemmeside programmering",
       "Webapp programmering",

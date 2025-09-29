@@ -1,6 +1,15 @@
 import Header from "../components/Header";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration (ms)
+    });
+  }, []);
+
   return (
     <>
       <header>
@@ -51,7 +60,10 @@ export default function About() {
 
           {/* AK card */}
           <div className="flex flex-col md:flex-row w-full items-center md:justify-between gap-8">
-            <div className="w-full max-w-[40rem] h-auto md:h-[32rem] bg-black rounded-2xl md:rounded-r-2xl shadow-md flex flex-col justify-center text-white p-5">
+            <div
+              data-aos="fade-right"
+              className="w-full max-w-[40rem] h-auto md:h-[32rem] bg-black rounded-2xl md:rounded-r-2xl shadow-md flex flex-col justify-center text-white p-5"
+            >
               <h2 className="text-3xl md:text-4xl text-center">
                 AK multimediedesign 2026
               </h2>
@@ -69,7 +81,10 @@ export default function About() {
 
           {/* BA card */}
           <div className="flex flex-col md:flex-row-reverse w-full items-center md:justify-between gap-8">
-            <div className="w-full max-w-[40rem] h-auto md:h-[32rem] bg-black rounded-2xl md:rounded-l-2xl shadow-md flex flex-col justify-center text-white p-5">
+            <div
+              data-aos="fade-left"
+              className="w-full max-w-[40rem] h-auto md:h-[32rem] bg-black rounded-2xl md:rounded-l-2xl shadow-md flex flex-col justify-center text-white p-5"
+            >
               <h2 className="text-3xl md:text-4xl text-center">
                 BA of Arts 2024
               </h2>
@@ -87,7 +102,10 @@ export default function About() {
 
           {/* STX card */}
           <div className="flex flex-col md:flex-row w-full items-center md:justify-between gap-8">
-            <div className="w-full max-w-[40rem] h-auto md:h-[32rem] bg-black rounded-2xl md:rounded-r-2xl shadow-md flex flex-col justify-center text-white p-5">
+            <div
+              data-aos="fade-right"
+              className="w-full max-w-[40rem] h-auto md:h-[32rem] bg-black rounded-2xl md:rounded-r-2xl shadow-md flex flex-col justify-center text-white p-5"
+            >
               <h2 className="text-3xl md:text-4xl text-center ">
                 Student - 2017
               </h2>
@@ -117,7 +135,11 @@ export default function About() {
           </h1>
 
           {/* SK card */}
-          <div className="flex justify-center w-full">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            className="flex justify-center w-full"
+          >
             <div className="w-full max-w-[40rem] h-auto md:h-[32rem] bg-black rounded-2xl shadow-md flex flex-col justify-center text-white p-5">
               <h2 className="text-3xl md:text-4xl text-center">
                 Skovgaard & Damgaard
@@ -139,8 +161,12 @@ export default function About() {
           </h1>
 
           {/* Card top */}
-          <div className="flex justify-center w-full">
-            <div className="w-full max-w-[55rem] bg-[#ff9100] rounded-2xl shadow-md flex flex-col justify-center text-white p-5 mb-10">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            className="flex justify-center w-full"
+          >
+            <div className="w-full max-w-[55rem] h-[18rem] bg-[#ff9100] rounded-2xl shadow-md flex flex-col justify-center text-white p-5 mb-10">
               <h2 className="text-3xl md:text-4xl text-center">Karaktertræk</h2>
               <div className="flex flex-col items-center mt-8 md:mt-12 text-xl md:text-2xl gap-6 text-center">
                 <p className="w-full md:w-[60%] text-justify tracking-tight">
@@ -154,8 +180,12 @@ export default function About() {
           </div>
 
           {/* Card bottom */}
-          <div className="flex justify-center w-full">
-            <div className="w-full max-w-[55rem] bg-black rounded-2xl shadow-md flex flex-col justify-center text-white p-5">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            className="flex justify-center w-full"
+          >
+            <div className="w-full max-w-[55rem] h-[18rem] bg-black rounded-2xl shadow-md flex flex-col justify-center text-white p-5">
               <h2 className="text-3xl md:text-4xl text-center">Interesser</h2>
               <div className="flex flex-col items-center mt-8 md:mt-12 text-xl md:text-2xl gap-6 text-center">
                 <p className="w-full md:w-[80%] text-justify tracking-tight">
@@ -171,45 +201,118 @@ export default function About() {
           </div>
         </section>
 
-        {/*Section - Hvad kan jeg tilbyde */}
-        {/* <section className="flex flex-col items-center w-screen gap-16 px-4">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black text-center mt-20">
+        {/* Section - Hvad kan jeg tilbyde */}
+        <section className="flex flex-col w-full gap-12 sm:gap-14 md:gap-16 px-4 mb-16 sm:mb-20 mt-20">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black text-center mt-20 mb-10 md:mb-20">
             Hvad kan jeg tilbyde?
           </h1>
-        </section> */}
+
+          <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-12 lg:gap-16 place-items-center">
+            {/* Digital Design */}
+            <div className="text-center max-w-md">
+              <h2 className="text-[#ff9100] text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">
+                Digital Design
+              </h2>
+              <p className="text-black text-sm sm:text-base md:text-lg lg:text-xl mt-4 sm:mt-5">
+                Branding, Visuel identitet, Moodboards, Logoer, Mockups,
+                Prototyper, InDesign, Illustrator, Photoshop og Figma
+              </p>
+            </div>
+
+            {/* Content Creation */}
+            <div className="text-center max-w-md">
+              <h2 className="text-[#ff9100] text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">
+                Content Creation
+              </h2>
+              <p className="text-black text-sm sm:text-base md:text-lg lg:text-xl mt-4 sm:mt-5">
+                SoMe, Reels, Opslag, Annoncer, Bannere, Podcast, Lyddesign,
+                YouTube, Video, foto og Reklamer
+              </p>
+            </div>
+
+            {/* Frontend-udvikling */}
+            <div className="text-center max-w-md">
+              <h2 className="text-[#ff9100] text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">
+                Frontend-udvikling
+              </h2>
+              <p className="text-black text-sm sm:text-base md:text-lg lg:text-xl mt-4 sm:mt-5">
+                Interaktiv og relevant webudvikling med HTML, CSS, JS, WordPress
+                og React
+              </p>
+            </div>
+          </div>
+        </section>
 
         {/*Section - CTA */}
         <section
           id="contact-section"
-          className="flex flex-col items-center w-screen gap-16 px-4 mb-20"
+          className="flex flex-col items-center w-full gap-12 sm:gap-14 md:gap-16 px-4 mb-16 sm:mb-20 mt-0 md:mt-20"
         >
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black text-center mt-20">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black text-center mt-20 mb-0">
             Giv mig et kald!
           </h1>
 
-          <div className="flex">
+          {/* Phone */}
+          <div className="flex items-center gap-3 sm:gap-4 md:gap-6">
             <img
-              className="
-            size-[15%] mr-4"
+              className="w-8 sm:w-10 md:w-12 lg:w-14 xl:w-10"
               src="/img/icons/Phone.svg"
-              alt=""
+              alt="Phone"
             />
-            <h2 className="text-black sm:text-xl md:text-xl lg:text-3xl">
+            <a
+              href="tel:+4593946104"
+              className="text-black text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl hover:text-[#ff9100] transition-colors"
+            >
               93 94 61 04
-            </h2>
+            </a>
           </div>
 
-          <div className="flex">
+          {/* Email */}
+          <div className="flex items-center gap-3 sm:gap-4 md:gap-6">
             <img
-              className="
-            size-[10%] mr-4"
+              className="w-7 sm:w-9 md:w-11 lg:w-12 xl:w-10"
               src="/img/icons/Email.svg"
-              alt=""
+              alt="Email"
             />
-            <h2 className="text-black sm:text-xl md:text-xl lg:text-3xl">
+            <a
+              href="mailto:bjarkedtholm@gmail.com"
+              className="text-black text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl hover:text-[#ff9100] transition-colors break-all"
+            >
               bjarkedtholm@gmail.com
-            </h2>
+            </a>
           </div>
+
+          {/* Socials */}
+          <div className="flex gap-6 sm:gap-8 md:gap-10">
+            <a
+              className="transition-transform duration-200 hover:scale-125"
+              href="https://www.instagram.com/bjarkeholm.media/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-10 sm:w-10 md:w-12 lg:w-14 "
+                src="/img/icons/IG-icon.svg"
+                alt="Instagram"
+              />
+            </a>
+
+            <a
+              className="transition-transform duration-200 hover:scale-125"
+              href="https://www.linkedin.com/in/bjarke-holm-7409051a2/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-10 sm:w-10 md:w-12 lg:w-14"
+                src="/img/icons/LinkedIn-icon.svg"
+                alt="LinkedIn"
+              />
+            </a>
+          </div>
+          <h2 className="text-black italic font-light text-xl md:text-3xl">
+            Jeg glæder mig til at høre fra jer!
+          </h2>
         </section>
       </main>
     </>
