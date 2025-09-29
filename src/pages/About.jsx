@@ -53,13 +53,13 @@ export default function About() {
         </section>
 
         {/*Section - CV */}
-        <section className="flex flex-col items-center w-screen gap-16 px-4">
+        <section className="flex flex-col w-screen gap-16 px-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black text-center mt-20 mb-20">
             CV
           </h1>
 
           {/* AK card */}
-          <div className="flex flex-col md:flex-row w-full items-center md:justify-between gap-8">
+          <div className="flex flex-col md:flex-row w-full items-center md:justify-between lg:justify-around gap-8">
             <div
               data-aos="fade-right"
               className="w-full max-w-[40rem] h-auto md:h-[32rem] bg-black rounded-2xl md:rounded-r-2xl shadow-md flex flex-col justify-center text-white p-5"
@@ -80,7 +80,7 @@ export default function About() {
           </div>
 
           {/* BA card */}
-          <div className="flex flex-col md:flex-row-reverse w-full items-center md:justify-between gap-8">
+          <div className="flex flex-col md:flex-row-reverse w-full items-center md:justify-between gap-8 lg:justify-around">
             <div
               data-aos="fade-left"
               className="w-full max-w-[40rem] h-auto md:h-[32rem] bg-black rounded-2xl md:rounded-l-2xl shadow-md flex flex-col justify-center text-white p-5"
@@ -101,7 +101,7 @@ export default function About() {
           </div>
 
           {/* STX card */}
-          <div className="flex flex-col md:flex-row w-full items-center md:justify-between gap-8">
+          <div className="flex flex-col md:flex-row w-full items-center md:justify-between gap-8 lg:justify-around">
             <div
               data-aos="fade-right"
               className="w-full max-w-[40rem] h-auto md:h-[32rem] bg-black rounded-2xl md:rounded-r-2xl shadow-md flex flex-col justify-center text-white p-5"
