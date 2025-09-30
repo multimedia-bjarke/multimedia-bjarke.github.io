@@ -88,11 +88,11 @@ export default function BentoGridFrontend() {
       </Link>
 
       <Link
-        to="/frontenddetail/googledev"
+        to="/frontenddetail/firebase"
         className="col-span-1 md:row-span-1 rounded-xl bg-black flex items-center justify-center p-4
                    transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:text-white hover:bg-[#]"
       >
-        <img src="/img/icons/GoogleDEV.svg" alt="" />
+        <img src="/img/icons/FIREBASE.svg" alt="" />
       </Link>
 
       <Link

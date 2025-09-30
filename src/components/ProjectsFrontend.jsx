@@ -133,12 +133,12 @@ const projects = [
   },
 
   {
-    slug: "googledev",
-    title: "Google dev tools",
+    slug: "firebase",
+    title: "Firebase",
     description:
-      "Gennem min uddannelse som multimediedesigner har jeg hyppigt benyttet mig af Google Dev Tools i web-projekter til at kontrollere og analyse min webudvikling.",
-    image: "/img/icons/GoogleDEV.svg",
-    tools: ["Hjemmeside programmering", "Webapp programmering", "VS code"],
+      "Gennem min uddannelse som multimediedesigner har jeg fået kendskab til og erfaring med at bruge Firebase som BaaS i webapp-projekter, primært i kombination med React.",
+    image: "/img/icons/FIREBASE.svg",
+    tools: ["Webapp programmering", "VS code", "React.js"],
   },
 
   {
