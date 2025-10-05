@@ -17,7 +17,7 @@ const projects = [
     slug: "css",
     title: "CSS - vanilla",
     description:
-      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla CSS herunder CSS-variabler, scopes, animationer og API'er",
+      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla CSS herunder CSS-variabler, scopes, animationer og CSS libraries",
     image: "/img/icons/CSS.svg",
     tools: [
       "Hjemmeside programmering",
@@ -31,7 +31,7 @@ const projects = [
     slug: "javascript",
     title: "JavaScript - vanilla",
     description:
-      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla JavaScript herunder funktioner, variabler, DOM, scopes, animationer, libraries og API'er.",
+      "Gennem min uddannelse som multimediedesigner har jeg fået basal erfaring med at bruge vanilla JavaScript herunder funktioner, variabler, DOM, scopes, animationer, libraries og API'er.",
     image: "/img/icons/JS.svg",
     tools: [
       "Hjemmeside programmering",
@@ -46,7 +46,7 @@ const projects = [
     slug: "react",
     title: "React.js",
     description:
-      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla React herunder komponentstruktur, funktionstyper, variabler, import/export, V-DOM, scopes, animationer, libraries og API'er.",
+      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge React herunder komponentstruktur, funktionstyper, variabler, import/export, V-DOM, scopes, animationer, libraries og API'er.",
     image: "/img/icons/REACT.svg",
     tools: [
       "Hjemmeside programmering",
@@ -64,7 +64,7 @@ const projects = [
     slug: "tailwind",
     title: "Tailwind CSS",
     description:
-      "Gennem min uddannelse som multimediedesigner har jeg fået en del erfaring med at bruge vanilla React herunder komponentstruktur, funktionstyper, variabler, import/export, V-DOM, scopes, animationer, libraries og API'er.",
+      "I forbindelse med dette portfolio-projetk har jeg lært at bruge Tailwind CSS, som CSS library - hvilket jeg har optur over! Det er gør CSS hurtigere, samt nemmere at tilføje responsivitet.",
     image: "/img/icons/TW.svg",
     tools: [
       "Hjemmeside programmering",
@@ -72,9 +72,6 @@ const projects = [
       "Dette portfolio website",
       "VS code",
       "CSS",
-      "Tailwind CSS",
-      "JavaScript",
-      "JS libraries (swiperjs, animate.css, bootstrap)",
       "Vite",
     ],
   },
@@ -83,9 +80,15 @@ const projects = [
     slug: "wordpress",
     title: "Wordpress ",
     description:
-      "Gennem mit studiejob i reklamebureauet Skovgaard & Damgaard har jeg stiftet bekendskab med Wordpress i forbindelse med opsætning af blogposts for forksellige kunder.",
+      "Gennem mit studiejob i reklamebureauet Skovgaard & Damgaard har jeg stiftet bekendskab med Wordpress i forbindelse med opsætning af blogposts for forksellige kunder. Jeg drømmer om at mestre det og kunne udvikle custom templates, samt bruge det som headles CMS.",
     image: "/img/icons/WP.svg",
-    tools: ["Hjemmesideopsætning", "Blogposts"],
+    tools: [
+      "Hjemmesideopsætning",
+      "Blogposts",
+      "Elementor",
+      "Custom HTML",
+      "YOAST SEO",
+    ],
   },
   {
     slug: "vscode",
@@ -120,6 +123,8 @@ const projects = [
       "JavaScript",
       "JS libraries (swiperjs, animate.css, bootstrap)",
       "Vite",
+      "REST API",
+      "Firebase",
     ],
   },
 
@@ -127,9 +132,14 @@ const projects = [
     slug: "git",
     title: "Git - version control system",
     description:
-      "Gennem min uddannelse som multimediedesigner har jeg hyppigt benyttet mig af git i web-projekter til at kontrollere og navigere i forskellige fil-versioner. Jeg opsætter altid mine projekter via GitHub desktop, så jeg har overblik over forskellige versioner af mine projekter.",
+      "Gennem min uddannelse som multimediedesigner har jeg fåt basalt kendskab til GIT, men hyppigt benyttet mig af det i web-projekter til at kontrollere og navigere i forskellige fil-versioner. Jeg opsætter altid mine projekter via GitHub desktop, så jeg har overblik over forskellige versioner af mine projekter.",
     image: "/img/icons/GIT.svg",
-    tools: ["Hjemmeside programmering", "Webapp programmering", "VS code"],
+    tools: [
+      "Hjemmeside programmering",
+      "Webapp programmering",
+      "VS code",
+      "GitHub",
+    ],
   },
 
   {
@@ -138,7 +148,7 @@ const projects = [
     description:
       "Gennem min uddannelse som multimediedesigner har jeg fået kendskab til og erfaring med at bruge Firebase som BaaS i webapp-projekter, primært i kombination med React.",
     image: "/img/icons/FIREBASE.svg",
-    tools: ["Webapp programmering", "VS code", "React.js"],
+    tools: ["Webapp programmering", "VS code", "React.js", "JavaScript"],
   },
 
   {
@@ -154,13 +164,17 @@ const projects = [
     slug: "figma",
     title: "Figma",
     description:
-      "Gennem min uddannelse som multimediedesigner har jeg brug Figma ENORMT meget - og elsker det! Primært har jeg brugt figJam til gruppearbejde og til at opsamle data fra UX-reserach og generel projektstyring. Figma design har jeg brugt primært til at designe websites og alt hvad der hører med dertil (CVI, logo, menuer osv.). Jeg har også brugt det til at lave prototyper, samt deres kode-funktioner til at analysere og nemt oversætte mit design til kode! Jeg kender de fleste genveje og forstår brugen af extensions.",
+      "Gennem min uddannelse som multimediedesigner har jeg brug Figma ENORMT meget - og elsker det! Primært har jeg brugt figJam til gruppearbejde og til at organisere data fra UX-research og generel projektstyring. Figma design har jeg brugt primært til at designe websites og alt hvad der hører med dertil (CVI, logo, menuer osv.). Jeg har også brugt det til at lave interaktive prototyper, samt deres kode-funktioner til at analysere og nemt oversætte mit design til kode! Jeg kender de fleste genveje og forstår brugen af extensions.",
     image: "/img/icons/FIGMA.svg",
     tools: [
       "Hjemmeside programmering",
       "Webapp programmering",
       "Prototyping",
       "Webdesign",
+      "Wireframes",
+      "Mockups",
+      "Moodboard",
+      "UX/UI",
     ],
   },
 ];
