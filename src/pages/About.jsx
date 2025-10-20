@@ -26,9 +26,9 @@ export default function About() {
           <div className="flex flex-col md:flex-row items-center gap-10 md:gap-40">
             <div className="flex justify-center">
               <img
-                src="/img/bjarke_bw_fritlagt.svg"
+                src="/img/bjarke-profil-fritlagt.png"
                 alt=""
-                className="max-w-[20rem] md:max-w-[24rem]"
+                className="max-w-[20rem] md:max-w-[24rem] rounded-full"
               />
             </div>
 
